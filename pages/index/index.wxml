@@ -1,0 +1,6 @@
+
+<!--index.wxml-->
+ <block wx:for="{{stars}}" wx:key="item.id"> 
+  <image class="star-image" style="left: {{item*50}}rpx" src="{{key > item ?(key-item == 0.5?halfSrc:selectedSrc) : normalSrc}}">
+  </image>
+ </block> 

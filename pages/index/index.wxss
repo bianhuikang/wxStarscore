@@ -1,0 +1,14 @@
+/**index.wxss**/
+.star-image{
+  position: absolute;
+  top: 50rpx;
+  width: 30rpx;
+  height: 30rpx;
+  src: "../../images/normal.png";
+}
+.item{
+  position: absolute;
+  top: 50rpx;
+  width: 75rpx;
+  height: 150rpx;
+}
